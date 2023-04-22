@@ -1,0 +1,59 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.heading{
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  gap : 10px;
+  margin: 10px;
+  align-items: center;
+  width: 100%;
+}
+form>input{
+  width: 70%;
+  font-size: 18px;
+  padding: 7px;
+  
+  
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  width: 200px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+
+}
+.profile{
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+
+}
+.profile > div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  padding: 10px 60px;
+  font-weight: 800;
+  align-items: center;
+
+}
+img{
+  width: 200px;
+  border-radius: 50%;
+  box-sizing: 0 0 10px black;
+  background-size: cover;
+}
+  
